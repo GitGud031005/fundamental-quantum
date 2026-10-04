@@ -8,9 +8,11 @@ Content, speaker notes and slide decks for a three-part group seminar on Quantum
 | 2 | Gates, circuits and algorithms: Hadamard, CNOT, Grover, Shor | [`quantum-bigdata-part2-content`](quantum-bigdata-part2-content) | `part2-slides.html` / `.pdf` |
 | 3 | Quantum × Big Data: where quantum helps data work, the two bottlenecks, hardware in 2026 | [`quantum-bigdata-part3-content`](quantum-bigdata-part3-content) | `part3-slides.html` / `.pdf` |
 
+The three part decks are also merged into one continuous talk, [`seminar-slides.html`](seminar-slides.html) (91 slides, about 45 minutes with Q&A): a cover, an agenda of nine numbered sections, the slides of the three parts back to back with the section numbers running 01–09 (Part 3 gets its own section slide, "09 Quantum × Big Data"), a single closing slide, and three references slides. The deck shows no presenter names and no "Part 1/2/3" labels. Three sentences that pointed to "Part 2" or "Part 3" were reworded, and the cross-reference on the "gates can be undone" slide points to "The math behind gates". The part decks stay the source for each part's slides; if one changes, rebuild the merged deck from them.
+
 ## The seminar in short
 
-The talk is about 40 minutes for third-year computer science students with no physics background, and it follows one thread: what makes a quantum computer different, how it computes, and whether that helps with big data.
+The talk is about 45 minutes (including 5 minutes of Q&A) for third-year computer science students with no physics background, and it follows one thread: what makes a quantum computer different, how it computes, and whether that helps with big data.
 
 1. **Foundations.** A qubit holds a mix of 0 and 1, and many qubits together hold a huge amount of information, but reading them gives back very little. Quantum computers work by using three effects, superposition, entanglement and interference, to steer toward the right answer before reading. No formulas; every idea has a picture.
 2. **Gates, circuits and algorithms.** Gates are reversible moves, and a circuit chains them. The speedup comes from interference, where wrong answers cancel and the right one adds up, not from "trying all answers at once". Grover makes search take about √N steps. Shor makes factoring easy and so breaks today's public-key cryptography. A live Grover demo finds the hidden record in a 3-qubit search with a 93% hit rate.
@@ -33,6 +35,7 @@ quantum-seminar/
 ├── quantum-bigdata-part1-content/      input + output for Part 1
 ├── quantum-bigdata-part2-content/      input + output for Part 2
 ├── quantum-bigdata-part3-content/      input + output for Part 3
+├── seminar-slides.html                 the three parts merged into one 91-slide talk
 ├── quantum-bigdata-part-template/      empty skeleton for a new part (see below)
 ├── .claude/skills/educational-dark-design/   the slide skill (design system + deck builder)
 └── material/                           reference book (local only, not committed)
