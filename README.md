@@ -1,4 +1,4 @@
-# Quantum
+# Fundamental Quantum
 
 Work on Quantum Computing for the Big Data course at HCMUT, split into two areas that share one set of tools and reference material.
 
@@ -18,7 +18,7 @@ Work on Quantum Computing for the Big Data course at HCMUT, split into two areas
 ## Layout
 
 ```
-quantum/
+fundamental-quantum/
 ├── seminar/        seminar content, notes and decks
 ├── project/        course project
 ├── material/       reference book (local only)
