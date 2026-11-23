@@ -11,3 +11,7 @@ node_modules/
 .claude/settings.local.json
 Thumbs.db
 .DS_Store
+
+# Project environment and notebook state
+project/.venv/
+.ipynb_checkpoints/

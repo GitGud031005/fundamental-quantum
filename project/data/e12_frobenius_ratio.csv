@@ -1,0 +1,7 @@
+N,matrix,fro_over_spectral,reference
+256,full rank,8.04,8.0
+256,rank 5,1.99,2.24
+512,full rank,11.49,11.3
+512,rank 5,2.02,2.24
+1024,full rank,16.05,16.0
+1024,rank 5,2.11,2.24
