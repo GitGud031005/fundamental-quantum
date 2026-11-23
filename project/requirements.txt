@@ -1,0 +1,9 @@
+qiskit>=2.6,<3
+qiskit-aer>=0.18
+numpy>=2.0
+scipy>=1.14
+matplotlib>=3.9
+pylatexenc
+nbformat
+nbconvert
+ipykernel
